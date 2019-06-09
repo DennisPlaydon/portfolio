@@ -207,6 +207,10 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem;
   }
+  .new-container {
+    position: relative;
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .carousel-caption {
