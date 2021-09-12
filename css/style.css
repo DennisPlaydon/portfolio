@@ -60,28 +60,26 @@ body {
   margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
-.fa-code {
+.fa-code, .fa-korvue {
   color: #e54d26;
 }
-.fa-bold {
+.fa-mobile {
   color: #563d7c;
 }
-.fa-css3 {
-  color: #2163a4;
-}
-.fa-python {
+.fa-code-branch {
   color: #b5b1f7;
 }
 .fa-js-square {
   color: #c7e378;
 }
-.fa-file {
+.fa-file, .fa-python {
   color: #270070;
 }
 .fa-code,
-.fa-bold,
-.fa-css3,
 .fa-python,
+.fa-mobile,
+.fa-korvue,
+.fa-code-branch,
 .fa-database,
 .fa-js-square,
 .fa-file {
