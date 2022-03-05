@@ -1,271 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head id="section-top">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Dennis Playdon - Home</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.0/smooth-scroll.min.js"
+            integrity="sha256-/k5n1rmutzb2PSqvtV77T+xHa9plhfEjb/mpn1RpMzA="
+            crossorigin="anonymous"
+        ></script>
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+            integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+            crossorigin="anonymous"
+        />
 
-<head id="section-top">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dennis Playdon - Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.0/smooth-scroll.min.js"
-    integrity="sha256-/k5n1rmutzb2PSqvtV77T+xHa9plhfEjb/mpn1RpMzA=" crossorigin="anonymous"></script>
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-</head>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-connect">Connect</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </head>
 
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-connect">Connect</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- - Image Slider -->
-  <div id="slides" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/background.png" />
-        <div class="carousel-caption">
-          <h1 class="display-2">Dennis Playdon</h1>
-          <h3>Personal Portfolio</h3>
-          <a href="#section-about"><button type="button" class="btn btn-outline-light btn-lg button">
-              LEARN MORE
-            </button></a>
+    <body>
+        <!-- - Image Slider -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/background.png" />
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Dennis Playdon</h1>
+                        <h3>Personal Portfolio</h3>
+                        <a href="#section-about"
+                            ><button type="button" class="btn btn-outline-light btn-lg button">
+                                LEARN MORE
+                            </button></a
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- - Jumbotron -->
-  <div class="container-fluid">
-    <div class="row jumbotron"></div>
-  </div>
-
-  <!-- - Welcome Section -->
-  <div class="container-fluid padding">
-    <div class="row welcome text-center">
-      <div class="col-12">
-        <h1 class="display-4">Built it myself.</h1>
-      </div>
-      <hr />
-      <div class="col-12">
-        <p class="lead">
-          Welcome to my personal portfolio. I created it to showcase some of the work I have done. You will find many
-          other projects I've worked on and
-          hopefully get a sense of who I am.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- - Two Column Section -->
-  <div class="container-fluid padding">
-    <div class="row padding">
-      <div class="col-md-12 col-lg-6">
-        <h2 id="section-about">About me</h2>
-        <p>
-          I was born in South Africa. My family immigrated to New Zealand in
-          2008 when I was 10. Doing the math, I guess that makes me 23 years
-          old. I've spent most of my childhood in NZ and can truly call myself
-          a Kiwi now that I've got my citizenship.
-        </p>
-        <p>
-          I studied at the University of Auckland majoring in Computer
-          Science and Economics. Pre university I had the best IT teacher who ignited a passion for solving problems
-          through software engineering that has stayed with me until this day. I engineer solutions because I love
-          solving problems. Working in tech also keeps my love of learning alive.
-        </p>
-        <p>
-          I currently work as a full stack engineer at a large SAAS company.
-        </p>
-        <p>
-          In my free time I enjoying surfing and solving rubiks cubes.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <img src="img/jumping.jpg" class="img-fluid" />
-      </div>
-    </div>
-  </div>
-
-  <!-- - Three Column Section -->
-  <div class="container-fluid padding">
-    <p id="section-skills"></p>
-    <div class="row text-center padding">
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fas fa-code-branch"></i>
-        <h3>C#</h3>
-        <p>
-          Professional experience working with C# creating API's in .NET which are highly available, can scale
-          horizontally and are able to handle millions of requests per day.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fab fa-korvue"></i>
-        <h3>Kotlin</h3>
-        <p>
-          Professional experience working with Kotlin to create CI/CD pipelines as code which automatically deploy to
-          production while running automated tests in each environment.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fab fa-js-square"></i>
-        <h3>Javascript</h3>
-        <p>
-          Professional experience creating responsive webpages built using Typescript and React.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fab fa-python"></i>
-        <h3>Python</h3>
-        <p>
-          Python is my go to scripting langauge. For small, well known programs Python is the tool I utilise the most.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fas fa-database" aria-hidden="true"></i>
-        <h3>Databases</h3>
-        <p>
-          As a full stack engineer I have experience designing schema's and tables which are normalised appropriately. I
-          have reduced query execution by 100 times by utilising the correct index.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
-        <i class="fas fa-mobile"></i>
-        <h3>Mobile</h3>
-        <p>
-          Dabbled with modern mobile development with single activity, multi fragment apps using architecture components
-          and jetpack navigation.
-        </p>
-      </div>
-      <br />
-    </div>
-    <hr class="my-4" />
-  </div>
-
-  <!-- - Projects -->
-  <div class="container-fluid padding">
-    <div class="row welcome text-center">
-      <div class="col-12">
-        <h1 class="display-4">Projects</h1>
-      </div>
-      <hr />
-    </div>
-  </div>
-
-  <!-- - Cards -->
-  <div class="container-fluid padding">
-    <div class="row padding">
-      <div class="col-md-4">
-        <div class="card">
-          <i class="fab fa-python" id="card1"></i>
-          <!-- <img class="card-img-top" src="img/rugby.jpg"> -->
-          <div class="card-body">
-            <h4 class="card-title">Python</h4>
-            <p class="card-text">
-              This is my most comfortable programming language. I have spent
-              the most time using it. I enjoy the versatility of the language.
-            </p>
-            <a href="projects.html#section-python" class="btn btn-outline-secondary">See Projects</a>
-          </div>
+        <!-- - Jumbotron -->
+        <div class="container-fluid">
+            <div class="row jumbotron"></div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <i class="fas fa-file" id="card3"></i>
-          <div class="card-body">
-            <h4 class="card-title">Java</h4>
-            <p class="card-text">
-              I learnt many things while learning Java. These include:
-              Sockets, Regular Expressions, Object Orinted Programming, GUI,
-              Threads and many more.
-            </p>
-            <a href="projects.html#section-java" class="btn btn-outline-secondary">See Projects</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <i class="fab fa-aws" id="card2"></i>
-          <div class="card-body">
-            <h4 class="card-title">Web-Dev</h4>
-            <p class="card-text">
-              I enjoy the design aspect of web-dev. You are can imagine the
-              end product and easily assess your success.
-            </p>
-            <a href="projects.html#section-web" class="btn btn-outline-secondary">See Projects</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr class="my-4" />
-  </div>
 
-  <!-- - Connect -->
-  <div class="container-fluid padding">
-    <div class="row text-center padding">
-      <div class="col-12">
-        <h2 id="section-connect">Connect</h2>
-      </div>
-      <div class="col-12 social padding">
-        <a href="https://www.linkedin.com/in/dennisplaydon/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/DennisPlaydon" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:dennisplaydon@gmail.com" target="_blank"><i class="fas fa-envelope-open"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- - Footer -->
-  <footer>
-    <div class="container-fluid">
-      <div class="row text-center justify-content-center">
-        <div class="col-md-4">
-          <hr class="light" />
-          <h5>Details</h5>
-          <hr class="light" />
-          <p>dennis.playdon@gmail.com</p>
+        <!-- - Welcome Section -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Built it myself.</h1>
+                </div>
+                <hr />
+                <div class="col-12">
+                    <p class="lead">
+                        Welcome to my personal portfolio. I created it to showcase some of the work I have
+                        done. You will find many other projects I've worked on and hopefully get a sense of
+                        who I am.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-12">
-          <hr class="light-100" />
-          <a href="#section-top" class="a-hover">
-            <h5>www.dennisplaydon.github.io/portfolio</h5>
-          </a>
+
+        <!-- - Two Column Section -->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-12 col-lg-6">
+                    <h2 id="section-about">About me</h2>
+                    <p>
+                        I was born in South Africa. My family immigrated to New Zealand in 2008 when I was 10.
+                        Doing the math, I guess that makes me 23 years old. I've spent most of my childhood in
+                        NZ and can truly call myself a Kiwi now that I've got my citizenship.
+                    </p>
+                    <p>
+                        I studied at the University of Auckland majoring in Computer Science and Economics.
+                        Pre university I had the best IT teacher who ignited a passion for solving problems
+                        through software engineering that has stayed with me until this day. I engineer
+                        solutions because I love solving problems. Working in tech also keeps my love of
+                        learning alive.
+                    </p>
+                    <p>I currently work as a full stack engineer at a large SAAS company.</p>
+                    <p>In my free time I enjoying surfing and solving rubiks cubes.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/jumping.jpg" class="img-fluid" />
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
 
-  <script type="text/javascript">
-    $(function () {
-      var scroll = new SmoothScroll('a[href*="#section-"]', {
-        speed: 1000
-      });
-    });
-  </script>
-</body>
+        <!-- - Three Column Section -->
+        <div class="container-fluid padding">
+            <p id="section-skills"></p>
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>C#</h3>
+                    <p>
+                        Professional experience working with C# creating API's in .NET which are highly
+                        available, can scale horizontally and are able to handle millions of requests per day.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fab fa-korvue"></i>
+                    <h3>Kotlin</h3>
+                    <p>
+                        Professional experience working with Kotlin to create CI/CD pipelines as code which
+                        automatically deploy to production while running automated tests in each environment.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fab fa-js-square"></i>
+                    <h3>Javascript</h3>
+                    <p>
+                        Professional experience creating responsive webpages built using Typescript and React.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>
+                        Python is my go to scripting langauge. For small, well known programs Python is the
+                        tool I utilise the most.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fas fa-database" aria-hidden="true"></i>
+                    <h3>Databases</h3>
+                    <p>
+                        As a full stack engineer I have experience designing schema's and tables which are
+                        normalised appropriately. I have reduced query execution by 100 times by utilising the
+                        correct index.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Mobile</h3>
+                    <p>
+                        Dabbled with modern mobile development with single activity, multi fragment apps using
+                        architecture components and jetpack navigation.
+                    </p>
+                </div>
+                <br />
+            </div>
+            <hr class="my-4" />
+        </div>
 
+        <!-- - Projects -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Projects</h1>
+                </div>
+                <hr />
+            </div>
+        </div>
+
+        <!-- - Cards -->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fab fa-python" id="card1"></i>
+                        <!-- <img class="card-img-top" src="img/rugby.jpg"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Python</h4>
+                            <p class="card-text">
+                                This is my most comfortable programming language. I have spent the most time
+                                using it. I enjoy the versatility of the language.
+                            </p>
+                            <a href="projects.html#section-python" class="btn btn-outline-secondary"
+                                >See Projects</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fas fa-file" id="card3"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Java</h4>
+                            <p class="card-text">
+                                I learnt many things while learning Java. These include: Sockets, Regular
+                                Expressions, Object Orinted Programming, GUI, Threads and many more.
+                            </p>
+                            <a href="projects.html#section-java" class="btn btn-outline-secondary"
+                                >See Projects</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <i class="fab fa-aws" id="card2"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Web-Dev</h4>
+                            <p class="card-text">
+                                I enjoy the design aspect of web-dev. You are can imagine the end product and
+                                easily assess your success.
+                            </p>
+                            <a href="projects.html#section-web" class="btn btn-outline-secondary"
+                                >See Projects</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" />
+        </div>
+
+        <!-- - Connect -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2 id="section-connect">Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://www.linkedin.com/in/dennisplaydon/" target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a href="https://github.com/DennisPlaydon" target="_blank"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="mailto:dennisplaydon@gmail.com" target="_blank"
+                        ><i class="fas fa-envelope-open"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- - Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-4">
+                        <hr class="light" />
+                        <h5>Details</h5>
+                        <hr class="light" />
+                        <p>dennis.playdon@gmail.com</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100" />
+                        <a href="#section-top" class="a-hover">
+                            <h5>www.dennisplaydon.github.io/portfolio</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+            $(function () {
+                var scroll = new SmoothScroll('a[href*="#section-"]', {
+                    speed: 1000,
+                });
+            });
+        </script>
+    </body>
 </html>
